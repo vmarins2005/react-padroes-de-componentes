@@ -56,7 +56,7 @@ diretamente, em vez de pedir mais uma prop ao compound.
   change para quem o consome direto.
 - Existe risco de divergência — uma tela usa o hook e reimplementa o markup com
   um detalhe a menos. Mitigação: teste automatizado de acessibilidade (`axe`) em
-  todas as peles, não só na oficial. Ver o projeto [acessibilidade-na-pratica](https://github.com/vmarins2005/acessibilidade-na-pratica).
+  todas as peles, não só na oficial. Ver o projeto [react-acessibilidade-na-pratica](https://github.com/vmarins2005/react-acessibilidade-na-pratica).
 
 **Monitorar**
 - Se, depois de seis meses, ninguém tiver consumido o hook diretamente, a segunda

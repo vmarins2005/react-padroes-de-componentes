@@ -32,7 +32,7 @@ export function toggleReducer(state: ToggleState, action: ToggleAction): ToggleS
     default: {
       // `never` aqui é uma verificação de exaustividade em tempo de compilação:
       // se alguém adicionar uma variante a ToggleAction e esquecer de tratá-la,
-      // isto deixa de compilar. Ver o projeto `typescript-na-fronteira`.
+      // isto deixa de compilar. Ver o projeto `react-typescript-na-fronteira`.
       const exhaustive: never = action
       throw new Error(`Ação não tratada: ${JSON.stringify(exhaustive)}`)
     }
