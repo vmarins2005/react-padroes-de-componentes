@@ -25,7 +25,7 @@ import {
  *
  * O resultado é um `<a>` só, com o estilo do Button e o comportamento do Link.
  *
- * Diferença para o `as="a"` (visto no projeto `react-solid-na-pratica`):
+ * Diferença para o `as="a"` (visto no projeto `react-solid-principles`):
  *
  *   as       -> o componente cria o elemento. Simples, mas ele precisa aceitar e
  *               repassar as props do elemento alvo, e o tipo fica complexo.
